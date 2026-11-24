@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FORECAST =
-  "Tomorrow in Nowhere: light rain of lost umbrellas, with a 90 percent chance the bus never comes.";
+  "Tomorrow in Snoozeville: fog so thick the 7:15 bus arrives yesterday, on time for once.";
 
 // Runtime guard: the sealed gate only accepts UTF-8 text of 1 to 140
 // characters, not only white space, on a single line. Refuse to write
